@@ -28,7 +28,8 @@ public class ExampleOpmode extends LinearOpMode {
         while (opModeIsActive()) {
             double forwardPower = -gamepad1.left_stick_y;
             double straife = gamepad1.left_stick_x;
-            double turn = (gamepad1.x ? 1 : 0) - (gamepad1.b ? 1 : 0);
+            double turn = gamepad1.right_stick_x;
+
             leftFront.setPower(forwardPower + straife - turn);
             leftBack.setPower(forwardPower-straife - turn);
             rightFront.setPower(forwardPower-straife + turn);
