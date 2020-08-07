@@ -1,6 +1,6 @@
 // simple autonomous program that drives bot forward 2 seconds then ends.
 
-package org.firstinspires.ftc.teamcode;
+package org.firstinspires.ftc.teamcode.tyler;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
